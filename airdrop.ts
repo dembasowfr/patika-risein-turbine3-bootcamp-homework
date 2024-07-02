@@ -7,9 +7,9 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 //Create a Solana devnet connection to devnet SOL tokens
 //const connection = new Connection("https://api.devnet.solana.com");
-const connection = new Connection("https://api.testnet.solana.com", 'confirmed');
+//const connection = new Connection("https://api.testnet.solana.com", 'confirmed');
 
-//const connection = new Connection("http://127.0.0.1:8899", 'confirmed');
+const connection = new Connection("http://127.0.0.1:8899", 'confirmed');
 
 
 
